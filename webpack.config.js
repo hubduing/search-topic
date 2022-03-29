@@ -9,6 +9,9 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "[name].[hash].js"  
   },
+  resolve: {
+    extensions: ['.wasn', '.mjs', '.js', '.json', '.jsx']
+  },
   plugins: [
     new CleanWebpackPlugin(),
     new HTMLWebpackPlugin(
