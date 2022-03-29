@@ -1,5 +1,5 @@
 import React from "react";
-import "repo.less";
+import "./repo.less";
 
 const Repo = (props) => {
   const repo = props.repo
